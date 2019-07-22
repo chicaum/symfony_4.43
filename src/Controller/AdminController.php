@@ -3,18 +3,18 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Routing\Annotation\Route;
 
-class HomeController extends AbstractController
+class AdminController extends AbstractController
 {
     /**
-     * @Route("/", name="home")
+     * @Route("/admin", name="admin")
      */
     public function index(Request $request)
     {
-        return $this->render('home/index.html.twig', [
-            'controller_name' => 'HomeController',
+        return $this->render('admin/index.html.twig', [
+            'controller_name' => 'AdminController',
             'ip' => $request->getClientIp(),
         ]);
     }
