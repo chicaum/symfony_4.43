@@ -1,7 +1,7 @@
 index:
-  path: /{_locale}/
+  path: /{_locale}
   controller: App\Controller\HomeController::index
   requirements:
-    _locale: en|fr|de
+    _locale: '%app_locales%'
   defaults:
-    _locale: en
+    _locale: '%locale%'

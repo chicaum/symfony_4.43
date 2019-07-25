@@ -1,15 +1,18 @@
-<?xml version="1.0"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
-        <body>
-            <trans-unit id="home.page">
-                <source>home.page</source>
-                <target>Home Page [DE]</target>
-            </trans-unit>
-            <trans-unit id="admin.page">
-                <source>admin.page</source>
-                <target>Admin Page [DE]</target>
-            </trans-unit>
-        </body>
-    </file>
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="de" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="BgSKn_x" resname="home.page">
+        <source>home.page</source>
+        <target>Home Page [DE]</target>
+      </trans-unit>
+      <trans-unit id="7QsnpdT" resname="admin.page">
+        <source>admin.page</source>
+        <target>Admin Page [DE]</target>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
