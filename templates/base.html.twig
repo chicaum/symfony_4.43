@@ -6,6 +6,9 @@
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+    {% if debug is defined %}
+        {{ dump(debug) }}
+    {% endif %}
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>

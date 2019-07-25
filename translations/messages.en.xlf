@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="home.page">
+                <source>home.page</source>
+                <target>Home Page</target>
+            </trans-unit>
+            <trans-unit id="admin.page">
+                <source>admin.page</source>
+                <target>Admin Page</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

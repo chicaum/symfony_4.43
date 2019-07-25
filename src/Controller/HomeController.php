@@ -6,6 +6,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * @Route("/home")
+ */
 class HomeController extends AbstractController
 {
     /**
@@ -15,7 +18,10 @@ class HomeController extends AbstractController
     {
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',
-            'ip' => $request->getClientIp(),
+            'debug' => [
+                'ip' => $request->getClientIp(),
+                'locale' => $request->getLocale()
+            ]
         ]);
     }
 }

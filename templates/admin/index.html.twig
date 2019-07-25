@@ -9,13 +9,6 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}!</h1>
-
-    <p>Ip {{ ip }}</p>
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/Users/ademirdasilva/Public/my_project/src/Controller/AdminController.php'|file_link(0) }}">src/Controller/AdminController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/Users/ademirdasilva/Public/my_project/templates/admin/index.html.twig'|file_link(0) }}">templates/admin/index.html.twig</a></code></li>
-    </ul>
+    <h1>Hello {{ 'admin.page'|trans }} </h1>>
 </div>
 {% endblock %}
